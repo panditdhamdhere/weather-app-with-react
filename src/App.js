@@ -1,5 +1,6 @@
 import hotBg from './assets/hot.jpg'
 import coldBg from './assets/cold.jpg'
+import Descriptions from './components/Descriptions';
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
           </div>
 
           {/* bootom description*/}
+
+          <Descriptions />
         </div>
       </div>
     </div>
