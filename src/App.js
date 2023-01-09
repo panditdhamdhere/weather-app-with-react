@@ -10,6 +10,7 @@ function App() {
   useEffect(() => {
     const fetchWeatherData = async () => {
 const data = await getFormattedWeatherData('pune')
+console.log(data);
     };
 
     fetchWeatherData();
@@ -32,7 +33,7 @@ const data = await getFormattedWeatherData('pune')
           <div className="section section__tempreture">
             <div className="icon">
               <h3>London</h3>
-              <img src="" alt="" />
+              <img src="https://cdn-icons-png.flaticon.com/128/4814/4814268.png" alt="" />
               <h3>cloudy</h3>
             </div>
 
