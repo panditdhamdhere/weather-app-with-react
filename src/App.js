@@ -3,6 +3,7 @@ import coldBg from './assets/cold.jpg'
 import Descriptions from './components/Descriptions';
 import { useEffect, useState } from 'react';
 import { getFormattedWeatherData } from './weatherService';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
               {/* bootom description*/}
 
               <Descriptions />
+              <Footer />
             </div>
           )
         }
